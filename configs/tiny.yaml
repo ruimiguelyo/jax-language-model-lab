@@ -1,0 +1,23 @@
+model:
+  vocab_size: 32
+  max_seq_len: 16
+  d_model: 32
+  n_heads: 4
+  n_layers: 2
+  d_ff: 64
+  precision: float32
+  tie_embeddings: true
+train:
+  seed: 7
+  batch_size: 4
+  learning_rate: 0.001
+  weight_decay: 0.0
+  grad_clip_norm: 1.0
+  warmup_steps: 0
+  total_steps: 250
+  eval_every: 50
+  checkpoint_every: 100
+  log_every: 25
+  precision: float32
+data:
+  seq_len: 16

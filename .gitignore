@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local data and experiment outputs. Raw data and checkpoints stay local;
+# metrics, manifests and figures can be committed.
+data/raw/
+data/processed/
+results/**/checkpoints/
+results/**/checkpoints/**
+results/**/*.orbax-checkpoint-tmp
+results/**/*.tmp
+checkpoints/
+*.log
+
+# Local caches and editor files.
+.cache/
+.env
+.idea/
+.vscode/

@@ -1,0 +1,13 @@
+{
+  "step": 110,
+  "parameters": 3320128,
+  "validation": {
+    "loss": 8.979214032639266,
+    "perplexity": 7936.3896484375,
+    "token_count": 42895.0,
+    "batches": 168
+  },
+  "seed": 42,
+  "dataset": "wikitext",
+  "tokenizer": "gpt2"
+}

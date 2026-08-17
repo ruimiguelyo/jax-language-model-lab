@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-08-17T15:51:37.607081+00:00",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "jax_version": "0.6.2",
+  "jax_backend": "cpu",
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "cpu_count": 12,
+  "memory_gb": 31.09,
+  "git_commit": null
+}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jax-language-model-lab"
+version = "0.1.0"
+description = "A small JAX language-model training stack with controlled continual-pretraining experiments."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=2.19",
+    "flax>=0.8.5",
+    "jax>=0.4.30",
+    "matplotlib>=3.8",
+    "numpy>=1.24",
+    "optax>=0.2.3",
+    "psutil>=5.9",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "transformers>=4.40",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

@@ -1,0 +1,8 @@
+{
+  "initial_loss": 2.078669548034668,
+  "final_loss": 0.0009253458119928837,
+  "initial_perplexity": 7.993826389312744,
+  "final_perplexity": 1.0009257793426514,
+  "steps": 100,
+  "seed": 7
+}

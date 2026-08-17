@@ -1,0 +1,17 @@
+{"step": 0, "phase": "validation", "loss": 10.84105066334344, "perplexity": 51075.03515625, "token_count": 42895.0, "batches": 168}
+{"step": 10, "phase": "train", "loss": 10.79843521118164, "perplexity": 48944.15625, "grad_norm": 1.1140985488891602, "token_count": 256.0}
+{"step": 20, "phase": "train", "loss": 10.680885314941406, "perplexity": 43516.05859375, "grad_norm": 0.9401134848594666, "token_count": 256.0}
+{"step": 25, "phase": "validation", "loss": 10.545789364815759, "perplexity": 38017.0390625, "token_count": 42895.0, "batches": 168}
+{"step": 30, "phase": "train", "loss": 10.468623161315918, "perplexity": 35193.7265625, "grad_norm": 0.9445727467536926, "token_count": 256.0}
+{"step": 40, "phase": "train", "loss": 10.28811264038086, "perplexity": 29381.26953125, "grad_norm": 0.9849072098731995, "token_count": 256.0}
+{"step": 50, "phase": "train", "loss": 10.039323806762695, "perplexity": 22909.88671875, "grad_norm": 0.9186325669288635, "token_count": 256.0}
+{"step": 50, "phase": "validation", "loss": 10.056833241221815, "perplexity": 23314.55859375, "token_count": 42895.0, "batches": 168}
+{"step": 60, "phase": "train", "loss": 9.82065200805664, "perplexity": 18410.05078125, "grad_norm": 0.9385215640068054, "token_count": 256.0}
+{"step": 70, "phase": "train", "loss": 9.621013641357422, "perplexity": 15078.326171875, "grad_norm": 1.0149344205856323, "token_count": 256.0}
+{"step": 75, "phase": "validation", "loss": 9.560176539818492, "perplexity": 14188.35546875, "token_count": 42895.0, "batches": 168}
+{"step": 80, "phase": "train", "loss": 9.413570404052734, "perplexity": 12253.54296875, "grad_norm": 1.1309919357299805, "token_count": 256.0}
+{"step": 90, "phase": "train", "loss": 9.188724517822266, "perplexity": 9786.1611328125, "grad_norm": 0.9732238054275513, "token_count": 256.0}
+{"step": 100, "phase": "train", "loss": 9.101641654968262, "perplexity": 8970.005859375, "grad_norm": 0.9735499620437622, "token_count": 256.0}
+{"step": 100, "phase": "validation", "loss": 9.127550414459233, "perplexity": 9205.4423828125, "token_count": 42895.0, "batches": 168}
+{"step": 110, "phase": "train", "loss": 8.58007526397705, "perplexity": 5324.50634765625, "grad_norm": 0.9142318367958069, "token_count": 256.0}
+{"step": 110, "phase": "validation", "loss": 8.979214032639266, "perplexity": 7936.3896484375, "token_count": 42895.0, "batches": 168}

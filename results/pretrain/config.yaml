@@ -1,0 +1,42 @@
+model:
+  vocab_size: 50257
+  max_seq_len: 64
+  d_model: 64
+  n_heads: 4
+  n_layers: 2
+  d_ff: 256
+  precision: float32
+  tie_embeddings: true
+train:
+  seed: 42
+  batch_size: 4
+  learning_rate: 0.0003
+  weight_decay: 0.1
+  grad_clip_norm: 1.0
+  warmup_steps: 10
+  total_steps: 400
+  eval_every: 25
+  checkpoint_every: 100
+  log_every: 10
+  precision: float32
+data:
+  tokenizer_name: gpt2
+  general_dataset: wikitext
+  general_config: wikitext-2-raw-v1
+  target_dataset: ag_news
+  target_config: null
+  seq_len: 64
+  max_train_documents: 2000
+  max_validation_documents: 500
+  cache_dir: data/raw
+continual:
+  adaptation_tokens: 20480
+  replay_ratio: 0.2
+  reservoir_capacity: 256
+  eval_fractions:
+  - 0.0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+  joint_target_ratio: 0.8

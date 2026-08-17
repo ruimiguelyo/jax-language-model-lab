@@ -1,0 +1,1 @@
+{"precision": "float32", "steps": 3, "elapsed_seconds": 0.007657800000743009, "tokens_per_second": 25072.475120970896, "validation_loss": 3.3169355392456055, "validation_perplexity": 27.575716018676758, "memory_stats": null, "backend": "cpu"}

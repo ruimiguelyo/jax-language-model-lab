@@ -1,0 +1,7 @@
+{
+  "capacity": 256,
+  "stored_examples": 256,
+  "stream_examples_seen": 3344,
+  "replay_ratio": 0.2,
+  "updates": "The reservoir is built from general-domain training blocks before adaptation and is not updated during adaptation."
+}
